@@ -1,0 +1,26 @@
+{
+  "name": "githubdemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "netlify": "./node_modules/.bin/netlify",
+    "build": "parcel build index.html"
+  },
+  "author": "Tunde Adebanjo",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.3.19",
+    "apollo-boost": "^0.4.9",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "fetch": "^1.1.0",
+    "graphql": "^15.5.0",
+    "graphql-client": "^2.0.1",
+    "node": "^16.1.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "netlify-cli": "^3.30.3"
+  }
+}
